@@ -1,0 +1,26 @@
+<!-- todo_list/todo_app/templates/todo_app/todolist_confirm_delete.html -->
+{% extends "base.html" %} {% block content %}
+<!--todolist_confirm_delete.html-->
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<div id="list_sure">
+  <h3>Delete List</h3>
+
+  <p>Are you sure you want to delete the list <i>{{ object.title }}</i>?</p>
+
+  <form method="POST">
+    {% csrf_token %}
+    <input
+      value="Yes, delete."
+      type="submit"
+      onclick="location.href='{% url 'indexx' %}';"
+    />
+
+    <input
+      value="Cancel"
+      type="button"
+      onclick="location.href='{% url 'list' list_id=object.id %}';"
+    />
+  </form>
+</div>
+{% endblock %}

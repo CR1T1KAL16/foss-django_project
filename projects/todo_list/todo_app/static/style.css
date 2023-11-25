@@ -1,0 +1,137 @@
+body {
+    background-color: bisque;
+}
+
+#signin {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    height: 50px;
+    width: 2    00px;
+    margin-left: 50px;
+    font-size: large;
+    background-color: rgb(82, 85, 84);
+    color: white;
+}
+
+#signup {
+        
+    font-family:'Courier New', Courier, monospace;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(82, 85, 84);
+    color: white;
+    border-radius: 10px;
+    margin-left: 809px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+#login_button {
+    background-color: chocolate;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    margin-left: 100px;
+    font-family:'Courier New', Courier, monospace
+}
+
+#login_details {
+    margin-top: 30px;
+    margin-left: 750px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+#login_header {
+    margin-top: 350px;
+    margin-left: 870px;
+    font-style: italic;
+}
+
+#nolist {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 750px;
+}
+
+#addnewlist {
+    border-radius: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: tomato;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+#django_heading {
+    margin-top: 300px;
+    margin-left: 770px;
+    font-style: italic;
+}
+
+#signup_heading {
+    font-style: italic;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+#signuptings {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+}
+
+#register_button {
+    border-radius: 10px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: tomato;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+
+#django_title {
+    margin-top: 300px;
+}
+
+#allmylists {
+    margin-left: 800px;
+    font-size: 30px;
+}
+
+#liist {
+    margin-left: 780px;
+}
+
+#titl {
+    margin-left: 780px;
+}
+
+#list_add {
+    margin-left: 780px;
+}
+
+#todo_list {
+    margin-left: 780px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#todo_item {
+    margin-left: 700px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#item_sure {
+    margin-left: 700px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#list_sure {
+    margin-left: 700px;
+    font-family: 'Courier New', Courier, monospace;
+}

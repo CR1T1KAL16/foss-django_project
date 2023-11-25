@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+{% block content %}
+
+<h3 id="titl">{{ title }}</h3>
+<div id="list_add">
+    <div>
+        <form method="post">
+
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input
+                value="Save"
+                type="submit">
+            <input
+                class="buttons"
+                value="Cancel"
+                type="button"
+                onclick="location.href='{% url "index" %}';">
+        </form>
+    </div>
+</div>
+
+{% endblock %}

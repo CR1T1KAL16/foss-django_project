@@ -1,0 +1,10 @@
+{% load static %}
+<h2 id="signup_heading">Sign up</h2>
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<form method="post" action="{% url 'signup' %}">
+    <div id="signuptings">
+        {% csrf_token %}
+        {{ form.as_p }}
+    </div>
+    <button id="register_button" type="submit">Register</button>
+</form>

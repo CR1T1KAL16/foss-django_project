@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+  <title id="django_title">Django To-do Lists</title>
+</head>
+<body>
+  
+  <div class="registration">
+    <h1 id="django_heading">Django To-do Lists</h1>
+    <a href="{% url 'signup' %}"><button id="signup">Sign up</button></a>
+    <a href="{% url 'signin' %}"><button id="signin">Sign in</button></a>
+  </div>
+</body>
+</html>
