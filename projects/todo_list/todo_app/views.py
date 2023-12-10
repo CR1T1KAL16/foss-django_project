@@ -139,8 +139,6 @@ class ItemListView(ListView):
 
 class ListDelete(DeleteView):
     model = ToDoList
-    # You have to use reverse_lazy() instead of reverse(),
-    # as the urls are not loaded when the file is imported.
     success_url = reverse_lazy("index")
 
 
